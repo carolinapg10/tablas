@@ -1,0 +1,19 @@
+table{
+    width: 100%; /*Hace que la tabla ocupe todo el ancho de la pagina */
+    margin: 20px 0; /*Margenes de la tabla*/
+}
+body{
+    background-color: rgba(183, 0, 255, 0.342);
+}
+th td{
+    padding: 10px; /*Rellano dentro de las celdas*/
+    text-align: left;/*Alinea el texto a la izquierda*/
+    border: 1px solid rgb(65, 47, 47);
+}
+th{
+    background-color: rgb(105, 123, 184); /*Fondo para el ancabezado*/
+    color: rgb(0, 0, 0);
+}
+tr:hover{ 
+    background-color: rgb(184, 137, 80); /*Cambia el fondo de las caldas al pasar el mouse*/
+}
